@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  padding: 0;
+  
+}
+header{
+  display: flex;
+    justify-content: center;
+    font-family: monospace;
+    font-size: xx-large;
+    color: crimson;
+}
+
+main{
+  display: flex;
+  justify-content: space-evenly;
+}
+#container{
+display: grid;
+height: 500px;
+width: 500px;
+
+}
+.options{display: flex;
+  flex-direction: column;
+  justify-content: center;}
+
+.grid-lines{
+  
+  border: 1px solid gray;
+}
+
+#containercover{
+border: 1px solid red;
+}
+#slider-value{
+  text-align: center;
+}
+#rainbowButton , #eraserButton{
+  font-size: 30px;
+}
+input#colorPicker{
+  height: 35px;
+    width: auto;
+}
+
+#pen-text{
+  text-align: center;
+    color: crimson;
+    font-family: monospace;
+    font-size: xx-large;
+}
+.optionbutton{
+  font-size:30px;
+}
+#slider-value{
+  padding: 0.2em;
+    font-family: sans-serif;
+    font-weight: 900;
+}
